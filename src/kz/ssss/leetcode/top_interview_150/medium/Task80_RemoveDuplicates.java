@@ -26,7 +26,7 @@ public class Task80_RemoveDuplicates {
     }
 
 
-    private static int[] parseArray(String input) {
+    public static int[] parseArray(String input) {
         input = input.trim().replaceAll("[\\[\\]\\s]", "");
 
         if (input.isEmpty()) {
